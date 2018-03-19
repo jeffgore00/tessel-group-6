@@ -8,8 +8,10 @@
 
 var path = require('path');
 var av = require('tessel-av');
-var mp3 = path.join(__dirname, 'DarkIntro.mp3');
+var fileToPlay = require('../accelerometer/accelerometer');
+var mp3 = path.join(__dirname, fileToPlay);
 var sound = new av.Player(mp3);
+
 
 sound.play();
 

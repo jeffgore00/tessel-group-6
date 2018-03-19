@@ -1,0 +1,21 @@
+{
+  "name": "tessel-group-6",
+  "version": "0.0.0",
+  "description": "Tessel project",
+  "main": "index.js",
+  "dependencies": {
+    "accel-mma84": "^0.2.4",
+    "tessel": "^0.3.25",
+    "tessel-av": "^0.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/jeffgore00/tessel-group-6",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script."
+}
